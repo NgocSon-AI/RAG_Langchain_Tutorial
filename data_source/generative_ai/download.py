@@ -27,7 +27,7 @@ file_links = [
         'url': "https://arxiv.org/abs/2307.09288"
     }
 ]
-save_dir = "papers"
+save_dir = "data_source/generative_ai/papers"
 os.makedirs(save_dir, exist_ok=True)
 for paper in file_links:
     title = paper['title'].replace(" ", "_").replace(":","").replace("/","-")
